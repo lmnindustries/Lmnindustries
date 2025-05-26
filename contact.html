@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact - LMN Industries</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="font-sans leading-normal tracking-normal">
+  <nav class="bg-gray-800 p-4 text-white">
+    <div class="container mx-auto"><a href="/" class="font-bold">← Back to Home</a></div>
+  </nav>
+  <main class="container mx-auto py-12">
+    <h1 class="text-4xl font-bold mb-6">Request a Quote</h1>
+    <form action="https://formspree.io/f/your-form-id" method="POST" enctype="multipart/form-data" class="space-y-4">
+      <input type="text" name="name" placeholder="Name" required class="w-full p-3 border rounded">
+      <input type="email" name="email" placeholder="Email" required class="w-full p-3 border rounded">
+      <input type="tel" name="phone" placeholder="Phone (optional)" class="w-full p-3 border rounded">
+      <select name="service" class="w-full p-3 border rounded">
+        <option>-- Select Service --</option>
+        <option>CNC Turning</option>
+        <option>Prototyping</option>
+        <option>CNC Milling</option>
+      </select>
+      <input type="file" name="file" class="w-full p-3 border rounded">
+      <textarea name="message" placeholder="Additional details..." class="w-full p-3 border rounded"></textarea>
+      <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded">Submit</button>
+    </form>
+  </main>
+</body>
+</html>
