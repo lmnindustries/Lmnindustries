@@ -1,0 +1,153 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #222;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.cta-button {
+    background: #00aaff;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.hero {
+    background: #eee;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.hero-buttons .btn {
+    margin: 1rem;
+    padding: 1rem 2rem;
+    background: #00aaff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn.secondary {
+    background: #555;
+}
+.services, .why-us, .portfolio-preview, .testimonials, .quote-cta, .content, .portfolio-gallery, .blog-posts {
+    padding: 2rem;
+    text-align: center;
+}
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.card {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 150px;
+}
+.why-us ul {
+    list-style: none;
+    padding: 0;
+}
+.why-us ul li {
+    margin: 0.5rem 0;
+}
+.portfolio-grid, .gallery-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.portfolio-item, .gallery-item {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+.portfolio-item img, .gallery-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+blockquote {
+    font-style: italic;
+    margin: 1rem auto;
+    max-width: 600px;
+}
+.quote-form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+.quote-form label {
+    display: block;
+    margin-top: 1rem;
+}
+.quote-form input,
+.quote-form select,
+.quote-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+}
+.quote-form button {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #00aaff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.blog-posts .post {
+    background: #f4f4f4;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-posts .post h2 {
+    margin: 0;
+}
+.blog-posts .post p {
+    margin: 0.5rem 0;
+}
+.chat-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.chat-widget a {
+    background: #25D366;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
